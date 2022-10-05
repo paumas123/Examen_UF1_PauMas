@@ -1,0 +1,59 @@
+.content{
+    display: flex;
+    justify-content: center;
+
+}
+
+form{
+    margin-top: 40px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px cadetblue;
+}
+
+form>h3{
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 0px;
+    border: 1px solid black;
+}
+
+table{
+    margin: 10px;
+    padding: 10px;
+}
+
+table input{
+    width: 100%;
+    padding: 2px 0;
+}
+
+th{
+    text-align: left;
+}
+
+label{
+    margin-right: 4px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons>input{
+    padding: 3px 12px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.smallText{
+    display: flex;
+    justify-content: center;
+}

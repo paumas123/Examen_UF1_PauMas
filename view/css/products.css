@@ -1,0 +1,33 @@
+.content{
+    margin: 75px;
+    display: inline-block;
+
+}
+
+.product{
+    width: 175px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #999;
+    margin: 20px;
+    display: inline-block;
+}
+
+.foto{
+    width: 100%;
+}
+
+.formAddCart>input{
+    font-size: 0.7em;
+    width: 33%;
+}
+
+.desc{
+    height: 110px;
+    overflow: auto;
+}
+
+.formAddCart>input[type=submit]{
+    background-color: darkgreen;
+    color: white;
+}

@@ -1,0 +1,37 @@
+table {
+    font-family: arial, sans-serif;
+    font-size: 1.2em;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 1.4em;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td:nth-child(1){
+    text-align: center;
+    width: 85px;
+}
+
+td img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.btn{
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 6px;
+    text-decoration: none;
+}
